@@ -19,18 +19,16 @@ You should have received a copy of the GNU Lesser General Public License along w
 
 The **32-bit Renesas RA4M1 processor** operating at **48 MHz** elevates servo control to a new level, providing **higher PWM resolution** compared to the **ATmega328P** used in **Arduino UNO R3**. Thanks to this power, **VarSpeedServoRA4M1** fully exploits the microcontroller's capabilities. With its **simple and intuitive syntax**, this **library** facilitates precise control over servo position and speed, even for beginners. Creating complex movement sequences is straightforward with just a few commands.
 
-<!-- ## WARNING: -->
-> [!WARNING]
 
+> [!WARNING]
 > **"External devices with a high current draw (e.g. servo motors) should never be powered via the 5 V pin. It is mainly intended for devices drawing lower current such as sensor modules"**.
 
 > For more information about the **Arduino UNO R4 Minima** and **Arduino UNO R4 WiFi** boards, please check the following links from the **official Arduino site**:
 * [Arduino UNO R4 Minima Cheat Sheet](https://docs.arduino.cc/tutorials/uno-r4-minima/cheat-sheet/)  
 * [Arduino UNO R4 WiFi Cheat Sheet](https://docs.arduino.cc/tutorials/uno-r4-wifi/cheat-sheet/)
 
-<!-- ## Learn: -->
-> [!TIP]
- 
+
+> [!TIP] 
 > How to connect power and control servo motors with your Arduino board. Please check the link of **Arduino official site**: 
  * [Servo Motor Basics with Arduino](https://docs.arduino.cc/learn/electronics/servo-motors/)
 
@@ -162,11 +160,7 @@ Additional examples are included in the distribution and are available in the **
 
 
 
-<!-- Additional Notes: 
-=================  -->
-
 > [!NOTE]
-
 > The **VarSpeedServoRA4M1 library** is not included in the standard **Arduino** distribution. You must download and install it separately.
 
 > There are two methods to achieve this:
